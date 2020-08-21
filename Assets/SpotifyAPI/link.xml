@@ -1,0 +1,6 @@
+<linker>
+  <!-- Make sure Unity doesn't strip the constructors for the SpotifyAPI Models otherwise will have problems parsing -->
+  <assembly fullname="SpotifyAPI.Web" perverse="all"/>
+  <assembly fullname="SpotifyAPI.Web.Auth" perverse="all"/>
+  <assembly fullname="Newtonsoft.Json" perverse="all"/>
+</linker>
